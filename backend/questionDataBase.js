@@ -1,5 +1,6 @@
 const Questions = [
   {
+    id:1,
     question: "What is the speed of light?",
     subject: "Physics",
     topic: "Waves",
@@ -7,6 +8,7 @@ const Questions = [
     marks: 5,
   },
   {
+    id:2,
     question: "Describe the process of photosynthesis.",
     subject: "Biology",
     topic: "Botany",
@@ -14,6 +16,7 @@ const Questions = [
     marks: 10,
   },
   {
+    id:3,
     question: "Solve the quadratic equation: ax^2 + bx + c = 0.",
     subject: "Mathematics",
     topic: "Algebra",
@@ -21,6 +24,7 @@ const Questions = [
     marks: 15,
   },
   {
+    id:4,
     question: "Explain Newton's laws of motion.",
     subject: "Physics",
     topic: "Mechanics",
@@ -28,6 +32,7 @@ const Questions = [
     marks: 8,
   },
   {
+    id:5,
     question: "What is the structure of DNA?",
     subject: "Biology",
     topic: "Genetics",
@@ -35,6 +40,7 @@ const Questions = [
     marks: 6,
   },
   {
+    id:6,
     question: "Find the derivative of f(x) = sin(x).",
     subject: "Mathematics",
     topic: "Calculus",
@@ -42,6 +48,7 @@ const Questions = [
     marks: 12,
   },
   {
+    id:7,
     question: "Define the concept of entropy in thermodynamics.",
     subject: "Physics",
     topic: "Thermodynamics",
@@ -49,6 +56,7 @@ const Questions = [
     marks: 10,
   },
   {
+    id:8,
     question: "Discuss the classification of living organisms.",
     subject: "Biology",
     topic: "Taxonomy",
@@ -56,6 +64,7 @@ const Questions = [
     marks: 7,
   },
   {
+    id:9,
     question:
       "Solve the system of linear equations: 2x + 3y = 7, 4x - 2y = 10.",
     subject: "Mathematics",
@@ -64,6 +73,7 @@ const Questions = [
     marks: 14,
   },
   {
+    id:10,
     question: "Explain the wave-particle duality of light.",
     subject: "Physics",
     topic: "Quantum Mechanics",
@@ -71,6 +81,7 @@ const Questions = [
     marks: 9,
   },
   {
+    id:11,
     question: "Compare and contrast mitosis and meiosis.",
     subject: "Biology",
     topic: "Cell Division",
@@ -78,6 +89,7 @@ const Questions = [
     marks: 6,
   },
   {
+    id:12,
     question: "Integrate the function ∫(3x^2 + 2)dx.",
     subject: "Mathematics",
     topic: "Calculus",
@@ -85,6 +97,7 @@ const Questions = [
     marks: 13,
   },
   {
+    id:13,
     question: "Define electric field and magnetic field.",
     subject: "Physics",
     topic: "Electromagnetism",
@@ -92,6 +105,7 @@ const Questions = [
     marks: 11,
   },
   {
+    id:14,
     question: "Explain the Hardy-Weinberg equilibrium.",
     subject: "Biology",
     topic: "Population Genetics",
@@ -99,6 +113,7 @@ const Questions = [
     marks: 7,
   },
   {
+    id:15,
     question: "Find the limit lim (x → 0) (sin(x)/x).",
     subject: "Mathematics",
     topic: "Calculus",
@@ -106,6 +121,7 @@ const Questions = [
     marks: 12,
   },
   {
+    id:16,
     question: "Discuss the concept of work in physics.",
     subject: "Physics",
     topic: "Work and Energy",
@@ -113,6 +129,7 @@ const Questions = [
     marks: 8,
   },
   {
+    id:17,
     question: "Describe the structure of a prokaryotic cell.",
     subject: "Biology",
     topic: "Cell Biology",
@@ -120,6 +137,7 @@ const Questions = [
     marks: 5,
   },
   {
+    id:18,
     question: "Solve the definite integral ∫[0, π] sin(x)dx.",
     subject: "Mathematics",
     topic: "Calculus",
@@ -127,6 +145,7 @@ const Questions = [
     marks: 15,
   },
   {
+    id:19,
     question: "Explain the concept of gravitational potential energy.",
     subject: "Physics",
     topic: "Gravity",
@@ -134,6 +153,7 @@ const Questions = [
     marks: 10,
   },
   {
+    id:20,
     question: "Discuss the principles of natural selection.",
     subject: "Biology",
     topic: "Evolution",
@@ -141,6 +161,7 @@ const Questions = [
     marks: 7,
   },
   {
+   id:21,
     question: "Find the eigenvalues of the matrix A = | 2  1 | | -1  4 |.",
     subject: "Mathematics",
     topic: "Linear Algebra",
@@ -148,6 +169,7 @@ const Questions = [
     marks: 14,
   },
   {
+id:22,
     question: "Explain the laws of reflection and refraction.",
     subject: "Physics",
     topic: "Optics",
@@ -155,6 +177,7 @@ const Questions = [
     marks: 9,
   },
   {
+    id:23,
     question: "Describe the process of protein synthesis.",
     subject: "Biology",
     topic: "Genetics",
@@ -162,6 +185,7 @@ const Questions = [
     marks: 6,
   },
   {
+    id:24,
     question: "Evaluate the integral ∫(1/x)dx.",
     subject: "Mathematics",
     topic: "Calculus",
@@ -169,6 +193,7 @@ const Questions = [
     marks: 13,
   },
   {
+    id:25,
     question: "Define the concept of electric current.",
     subject: "Physics",
     topic: "Electricity",
@@ -176,6 +201,7 @@ const Questions = [
     marks: 11,
   },
   {
+    id:26,
     question: "Explain the endocrine system in humans.",
     subject: "Biology",
     topic: "Human Physiology",
@@ -183,6 +209,7 @@ const Questions = [
     marks: 8,
   },
   {
+    id:27,
     question: "Solve the differential equation dy/dx = 2x.",
     subject: "Mathematics",
     topic: "Differential Equations",
@@ -190,6 +217,7 @@ const Questions = [
     marks: 15,
   },
   {
+    id:28,
     question: "Discuss the principles of conservation of energy.",
     subject: "Physics",
     topic: "Energy",
@@ -197,6 +225,7 @@ const Questions = [
     marks: 10,
   },
   {
+    id:29,
     question: "Explain the structure of a eukaryotic cell.",
     subject: "Biology",
     topic: "Cell Biology",
@@ -204,6 +233,7 @@ const Questions = [
     marks: 6,
   },
   {
+    id:30,
     question: "Evaluate the series Σ(1/n^2) from n = 1 to ∞.",
     subject: "Mathematics",
     topic: "Calculus",
@@ -211,6 +241,7 @@ const Questions = [
     marks: 12,
   },
   {
+    id:31,
     question: "Define the concept of magnetism.",
     subject: "Physics",
     topic: "Electromagnetism",
@@ -218,6 +249,7 @@ const Questions = [
     marks: 9,
   },
   {
+    id:32,
     question: "Discuss the process of DNA replication.",
     subject: "Biology",
     topic: "Genetics",
@@ -225,6 +257,7 @@ const Questions = [
     marks: 7,
   },
   {
+    id:33,
     question:
       "Solve the system of differential equations dx/dt = y, dy/dt = -x.",
     subject: "Mathematics",
@@ -233,6 +266,7 @@ const Questions = [
     marks: 14,
   },
   {
+    id:34,
     question: "Explain the laws of thermodynamics.",
     subject: "Physics",
     topic: "Thermodynamics",
@@ -240,6 +274,7 @@ const Questions = [
     marks: 8,
   },
   {
+    id:35,
     question: "Describe the structure of a virus.",
     subject: "Biology",
     topic: "Microbiology",
@@ -247,6 +282,7 @@ const Questions = [
     marks: 5,
   },
   {
+    id:36,
     question: "Evaluate the integral ∫e^x dx.",
     subject: "Mathematics",
     topic: "Calculus",
@@ -254,6 +290,7 @@ const Questions = [
     marks: 15,
   },
   {
+    id:37,
     question: "Discuss the concept of electric resistance.",
     subject: "Physics",
     topic: "Electricity",
