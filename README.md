@@ -1,4 +1,4 @@
-Tech Used:- React,React Query,Node JS, Array for Database,Express.
+Tech Used:- React,React Query,Node JS, Arrays for the Database,Express.
 
 
 How to Start
